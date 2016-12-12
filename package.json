@@ -1,0 +1,16 @@
+{
+  "name": "inuitcss-plugin-row",
+  "version": "1.0.0",
+  "description": "A row object for InuitCSS.",
+  "main": "_objects.row.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dietr/inuitcss-plugin-row.git"
+  },
+  "author": "Dieter Peirs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Dietr/inuitcss-plugin-row/issues"
+  },
+  "homepage": "https://github.com/Dietr/inuitcss-plugin-row"
+}

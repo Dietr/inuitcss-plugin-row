@@ -1,0 +1,75 @@
+/* ==========================================================================
+   #ROW
+   ========================================================================== */
+
+/**
+ * Creates even spaced responsive rows based on the default InuitCSS spacing variables.
+ *
+ *   <div class="o-row">
+ *     <div class="o-wrapper">
+ *     </div>
+ *   </div>
+ *
+ */
+
+
+
+
+
+/* Default/mandatory classes.
+   ========================================================================== */
+
+.o-row {
+  padding-top: $inuit-global-spacing-unit;
+  padding-bottom: $inuit-global-spacing-unit;
+
+  @include mq(medium) {
+    padding-top: $inuit-global-spacing-unit-large;
+    padding-bottom: $inuit-global-spacing-unit-large;
+  }
+}
+
+
+
+
+
+/* Padding size modifiers.
+   ========================================================================== */
+
+.o-row--tiny {
+  padding-top: $inuit-global-spacing-unit-tiny;
+  padding-bottom: $inuit-global-spacing-unit-tiny;
+
+  @include mq(medium) {
+    padding-top: $inuit-global-spacing-unit-small;
+    padding-bottom: $inuit-global-spacing-unit-small;
+  }
+}
+
+
+.o-row--small {
+  padding-top: $inuit-global-spacing-unit-small;
+  padding-bottom: $inuit-global-spacing-unit-small;
+
+  @include mq(medium) {
+    padding-top: $inuit-global-spacing-unit;
+    padding-bottom: $inuit-global-spacing-unit;
+  }
+}
+
+
+.o-row--large {
+  padding-top: $inuit-global-spacing-unit-large;
+  padding-bottom: $inuit-global-spacing-unit-large;
+
+  @include mq(medium) {
+    padding-top: $inuit-global-spacing-unit-huge;
+    padding-bottom: $inuit-global-spacing-unit-huge;
+  }
+}
+
+
+.o-row--huge {
+  padding-top: $inuit-global-spacing-unit-huge;
+  padding-bottom: $inuit-global-spacing-unit-huge;
+}
