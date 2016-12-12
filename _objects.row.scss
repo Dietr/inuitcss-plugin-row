@@ -13,63 +13,58 @@
  */
 
 
+$inuit-row-breakpoint: medium !default;
 
 
 
-/* Default/mandatory classes.
+/* Default classes.
    ========================================================================== */
 
 .o-row {
   padding-top: $inuit-global-spacing-unit;
   padding-bottom: $inuit-global-spacing-unit;
 
-  @include mq(medium) {
+  @include mq($inuit-row-breakpoint) {
     padding-top: $inuit-global-spacing-unit-large;
     padding-bottom: $inuit-global-spacing-unit-large;
   }
 }
 
 
-
-
-
-/* Padding size modifiers.
-   ========================================================================== */
-
-.o-row--tiny {
+.o-row-tiny {
   padding-top: $inuit-global-spacing-unit-tiny;
   padding-bottom: $inuit-global-spacing-unit-tiny;
 
-  @include mq(medium) {
+  @include mq($inuit-row-breakpoint) {
     padding-top: $inuit-global-spacing-unit-small;
     padding-bottom: $inuit-global-spacing-unit-small;
   }
 }
 
 
-.o-row--small {
+.o-row-small {
   padding-top: $inuit-global-spacing-unit-small;
   padding-bottom: $inuit-global-spacing-unit-small;
 
-  @include mq(medium) {
+  @include mq($inuit-row-breakpoint) {
     padding-top: $inuit-global-spacing-unit;
     padding-bottom: $inuit-global-spacing-unit;
   }
 }
 
 
-.o-row--large {
+.o-row-large {
   padding-top: $inuit-global-spacing-unit-large;
   padding-bottom: $inuit-global-spacing-unit-large;
 
-  @include mq(medium) {
+  @include mq($inuit-row-breakpoint) {
     padding-top: $inuit-global-spacing-unit-huge;
     padding-bottom: $inuit-global-spacing-unit-huge;
   }
 }
 
 
-.o-row--huge {
+.o-row-huge {
   padding-top: $inuit-global-spacing-unit-huge;
   padding-bottom: $inuit-global-spacing-unit-huge;
 }
